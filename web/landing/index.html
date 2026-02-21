@@ -25,6 +25,34 @@
         },
       };
     </script>
+  <style>
+    @keyframes gradientShift {
+      0%   { background-position: 0% 50%; }
+      50%  { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    .gradient-text {
+      background: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+      background-size: 300% 300%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      display: inline-block;
+      animation: gradientShift 5s ease infinite;
+    }
+    .gradient-btn {
+      background: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+      background-size: 300% 300%;
+      animation: gradientShift 5s ease infinite;
+    }
+    .gradient-bar {
+      background: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+      background-size: 300% 300%;
+      animation: gradientShift 5s ease infinite;
+      height: 3px;
+      width: 100%;
+    }
+  </style>
   </head>
   <body>
     <div id="root"></div>

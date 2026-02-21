@@ -1,25 +1,25 @@
-[0m[[0m[0minfo[0m] [0m[0mFast optimizing C:\Users\Atrancendentbeing\Desktop\aathu-lang\web\landing\target\scala-3.3.3\aathu-landing-fastopt[0m
-[0m[[0m[0mdebug[0m] [0m[0mLinker: Compute reachability: 253806 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mLinker: Assemble LinkedClasses: 32268 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mLinker: 307992 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mOptimizer: Batch mode: true[0m
-[0m[[0m[0mdebug[0m] [0m[0mOptimizer: Incremental part: 145613 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mOptimizer: Elidable constructors: 3657 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mOptimizer: Optimizing 3344 methods.[0m
-[0m[[0m[0mdebug[0m] [0m[0mOptimizer: Optimizer part: 395779 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mOptimizer: 554687 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mRefiner: Compute reachability: 66929 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mRefiner: Assemble LinkedClasses: 7140 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mRefiner: 75856 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: Calculate Dependency Info: 2241 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: Analyze Modules: 794 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: Assemble Modules: 8833 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: 13451 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mEmitter: Generate Classes: 418813 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mEmitter: Write trees: 59986 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mEmitter: Class tree cache stats: reused: 0 -- invalidated: 417[0m
-[0m[[0m[0mdebug[0m] [0m[0mEmitter: Method tree cache stats: reused: 0 -- invalidated: 1170[0m
-[0m[[0m[0mdebug[0m] [0m[0mEmitter: Post transforms: total: 1973 -- nested: 23 -- nested avoided: 232[0m
-[0m[[0m[0mdebug[0m] [0m[0mEmitter: 527097 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mBasicBackend: Write result: 49607 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mBasicBackend: total modules: 1; re-written: 1[0m
+[info] Fast optimizing C:\Users\Atrancendentbeing\Desktop\aathu-lang\web\landing\target\scala-3.3.3\aathu-landing-fastopt
+[debug] Linker: Compute reachability: 283565 us
+[debug] Linker: Assemble LinkedClasses: 36788 us
+[debug] Linker: 340515 us
+[debug] Optimizer: Batch mode: true
+[debug] Optimizer: Incremental part: 192361 us
+[debug] Optimizer: Elidable constructors: 8514 us
+[debug] Optimizer: Optimizing 3342 methods.
+[debug] Optimizer: Optimizer part: 476131 us
+[debug] Optimizer: 698479 us
+[debug] Refiner: Compute reachability: 39954 us
+[debug] Refiner: Assemble LinkedClasses: 7452 us
+[debug] Refiner: 51618 us
+[debug] Module Splitter: Calculate Dependency Info: 6783 us
+[debug] Module Splitter: Analyze Modules: 1281 us
+[debug] Module Splitter: Assemble Modules: 15362 us
+[debug] Module Splitter: 27945 us
+[debug] Emitter: Generate Classes: 519445 us
+[debug] Emitter: Write trees: 112856 us
+[debug] Emitter: Class tree cache stats: reused: 0 -- invalidated: 417
+[debug] Emitter: Method tree cache stats: reused: 0 -- invalidated: 1167
+[debug] Emitter: Post transforms: total: 1970 -- nested: 23 -- nested avoided: 232
+[debug] Emitter: 703264 us
+[debug] BasicBackend: Write result: 52553 us
+[debug] BasicBackend: total modules: 1; re-written: 1

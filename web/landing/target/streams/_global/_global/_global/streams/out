@@ -2,8 +2,8 @@
 [info] Bundling the application with its NPM dependencies
 [debug] Command: node C:\Users\Atrancendentbeing\Desktop\aathu-lang\web\landing\target\scala-3.3.3\scalajs-bundler\main\node_modules\webpack\bin\webpack --profile --json --config C:\Users\Atrancendentbeing\Desktop\aathu-lang\web\landing\target\scala-3.3.3\scalajs-bundler\main\webpack.config.js
 [info] Version: 5.24.3
-[info] Hash: c3d7d58e09670672c370
-[info] Time: 643ms
+[info] Hash: c90a1713cafd6f0faceb
+[info] Time: 746ms
 [info] Path: C:\Users\Atrancendentbeing\Desktop\aathu-lang\web\landing\target\scala-3.3.3\scalajs-bundler\main
 [info]                           Asset       Size                                Chunks
-[info] aathu-landing-fastopt-bundle.js   1.61 MiB   [emitted]   [aathu-landing-fastopt]
+[info] aathu-landing-fastopt-bundle.js   1.65 MiB   [emitted]   [aathu-landing-fastopt]
